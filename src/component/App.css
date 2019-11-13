@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*NAVIGATION*/
+
+.navigation{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  background-color: white;
+  position: relative;
+  border: 3px solid rgb(250, 246, 1);
+  background-color: rgb(250, 248, 231);
+}
+
+li{
+  padding: 10px;
+  color: white;
+  width: 150px;
+  height: 100%;
+  list-style-type: none;
+  text-align: center;
+  text-decoration: none;
+  border-left: 1.5px solid rgb(250, 246, 1);
+  border-right: 1.5px solid rgb(250, 246, 1);
+  font-weight: bold;
+  font-family: Oswald;
+}
+
+li:first-child{
+  border-left: 3px solid rgb(250, 246, 1);
+}
+
+li:last-child{
+  border-right: 3px solid rgb(250, 246, 1);
+}

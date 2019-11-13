@@ -1,0 +1,17 @@
+.footer{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: grey;
+    align-items: center;
+}
+
+.footercontent{
+    margin: 2px;
+    font-size: 50%;;
+}
+
+.eafit{
+    height: 20px;
+}

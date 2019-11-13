@@ -1,0 +1,64 @@
+.titulo{
+    font-size: 30px;
+    color: rgb(254, 230, 23);
+    background-color: rgb(0, 177, 209) ;
+    text-align: center;;
+}
+
+.icon{
+    height: 100px;
+    width:  100px;
+    margin: 10px;
+}
+
+.bigContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 40px;
+}
+
+.mediumContainer{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border-style: solid;
+    border-color: rgb(0, 177, 209);
+}
+
+.mediumContainer:last-child{
+    width: 40%;
+    border-left: 3px;
+}
+
+.mediumContainer:first-child{
+    border-right: 3px;
+}
+
+.otherContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.smallContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.titulopequeño{
+    color: rgb(181, 43, 179);
+    font-size: 15px;
+    text-align: center;
+    border:none;
+}
+
+
+.dispositivos{
+    color: rgb(78,46,101);
+    font-size: 50px;
+}
